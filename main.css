@@ -30,14 +30,17 @@ header h3 {
    justify-content: flex-end;
    align-items: center;
    flex-flow: row wrap;
-   margin-right: 20px;
-   width: 15%;
+   width: 20%;
+   padding-right: 30px;
 }
 
 .contact p{
    margin-bottom: 8px;
    color: #E4F132;
    margin-top: 0;
+   width: 80%;
+ 
+   justify-content: flex-end;
 }
 
 .contact  a {
@@ -86,18 +89,20 @@ footer {
 
 .social-icons  {
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
     flex-flow: row nowrap;
     color: #E4F132;
     font-size: 20px;
+    width: 80%;
    
 }
 .social-icons a {
     text-decoration: none;
     padding-top: 5px;
-    color: #E4F132
+    color: #E4F132;
+    justify-content: flex-start;
 }
 
 
@@ -134,3 +139,4 @@ ul {
 .social-icons img {
     display: none;
 }
+
