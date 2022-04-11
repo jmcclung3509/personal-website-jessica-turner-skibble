@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Excercise-1-color-changer</title>
+</head>
+<body>
+    <header>
+        <h1> Color Picker</h1>
+    </header>
+    <section class="selectors">
+        <div id = "input-container">
+            <label id="inputText1" for= "backgroundColor">Select Background Color</label>
+            <input class ="change-cursor" type="color" id ="backgroundcolor" name="backgroundcolor" onChange="changeBackground()" onChange="changeText()">
+        </div>
+        <div id = "input-container">
+            <label id="inputText2" for= "textColor">Select Text Color</label>
+            <input class ="change-cursor" type="color" id ="textcolor" name="textcolor"
+            onChange = "changeText()">
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>  
+ 
+</html>

@@ -1,0 +1,15 @@
+body {
+    width: 100vw;
+    height: 100vw;
+}
+h1 {
+    text-align: center;
+
+}
+.selectors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 30px;
+}
