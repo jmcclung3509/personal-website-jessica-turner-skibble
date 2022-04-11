@@ -96,6 +96,7 @@ const menu = [
     title: "chicken parmesan",
     category: "dinner",
     sort: "4",
+    price: 20.99,
     img: "./images/chicken-parmesan.jpeg",
     desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
   },
