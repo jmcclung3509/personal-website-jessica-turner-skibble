@@ -1,3 +1,4 @@
+
 body {
     font-family: 'lora', sans-serif;
     background-color: #F5F7D4;
@@ -220,5 +221,11 @@ footer p {
    .contact p {
        font-size: 1em;
    }
+   .contact {
+       width: 25%;
+   }
 
+  }
+  @media only screen and (max-width: 1200px) {
+ 
   }
